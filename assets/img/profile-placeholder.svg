@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="Placeholder Foto Profil Ilham Faza Loka">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bgGrad)" />
+  <circle cx="320" cy="80" r="90" fill="#06b6d4" opacity="0.08" />
+  <circle cx="80" cy="330" r="110" fill="#38bdf8" opacity="0.06" />
+  <!-- Silhouette -->
+  <circle cx="200" cy="145" r="56" fill="#334155" stroke="url(#accentGrad)" stroke-width="3" />
+  <path d="M95 340 C95 262, 140 225, 200 225 C260 225, 305 262, 305 340" fill="#334155" stroke="url(#accentGrad)" stroke-width="3" stroke-linecap="round" />
+  <!-- Initials badge -->
+  <rect x="148" y="346" width="104" height="28" rx="14" fill="#0f172a" stroke="#38bdf8" stroke-width="1.5" opacity="0.9" />
+  <text x="200" y="365" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" letter-spacing="2" fill="#38bdf8">IFL</text>
+</svg>
